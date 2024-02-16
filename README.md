@@ -1,4 +1,6 @@
 # Python
-This is a Hello World Test.
+This is a education python coding.
 
-This is a test in the Development branch
+First attemt to use vccode python git.
+
+This should be the developement branch
