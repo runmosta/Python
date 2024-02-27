@@ -19,12 +19,12 @@ class CountdownApp:
         # Primary step time input field
         self.entry_primary_step_time = tk.Entry(self.master, width=5, justify='center')
         self.entry_primary_step_time.grid(row=1, column=1, sticky='w', padx=5, pady=5)
-        self.entry_primary_step_time.insert(0, "15")  # Default primary optional step time
+        self.entry_primary_step_time.insert(0, "30")  # Default primary optional step time
 
         # Secondary step time input field
         self.entry_secondary_step_time = tk.Entry(self.master, width=5, justify='center')
         self.entry_secondary_step_time.grid(row=2, column=1, padx=5, pady=5)
-        self.entry_secondary_step_time.insert(0, "30")  # Default secondary optional step time
+        self.entry_secondary_step_time.insert(0, "15")  # Default secondary optional step time
 
         # Labels next to input fields
         tk.Label(self.master, text="Enter total time (HH:MM:SS):").grid(row=0, column=0, sticky='e')
